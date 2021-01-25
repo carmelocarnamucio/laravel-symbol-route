@@ -9,7 +9,11 @@
   <body>
 
     @include('components.header')
-    @yield('content')
+
+    <div class="container">
+      @yield('content')
+    </div>
+
     @include('components.footer')
 
   </body>
