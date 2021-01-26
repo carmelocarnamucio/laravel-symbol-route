@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content:center;
+
+  a {
+    margin-left: 10px;
+    color: white;
+  }
+
+}
+
+li {
+  list-style: none;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
